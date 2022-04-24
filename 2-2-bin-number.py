@@ -7,7 +7,7 @@ number = []
 GPIO.setmode(GPIO.BCM)
 
 for _ in range(len(dac)):
-    number.append(int(input())
+    number.append(int(input()))
 
 GPIO.setup(dac, GPIO.OUT)
 
